@@ -21,7 +21,8 @@ export const PROJECTS = [
      {
         title: 'Sign Language',
         logo: require("../../assets/sign_lang.jpg"),
-        description: 'Developed a sign language recognition system using YOLOv5 for recognizing ASL hand gestures. This aims to enhance communication for the deaf and hard-of-hearing community.',
+        description: "Developed a sign language recognition system using YOLOv5 for recognizing ASL hand gestures. This aims to enhance communication for the deaf and hard-of-hearing community.
+                        TechStack Python Pytorch",
         repolink: 'https://github.com/Nikhil1998-Mogre/sign_language_project_yolov5/tree/main'
      },
      {
