@@ -67,7 +67,9 @@ const Project = ({ heading, username, length, specfic }) => {
               <div style={{ backgroundColor: 'white', padding: '1rem', borderRadius: '6px', boxShadow: 'rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px' }} >
                 <div style={{ fontSize: '18px', fontWeight: 'bold' }} >{title}</div>
                 <div style={{ display: 'flex', gap: '1rem', padding: '1rem 0px' }} >
-                  <img width={180} height={180} src={logo} alt="" style={{ borderRadius: '6px', objectFit: 'fill', border: '1px solid grey' }} />
+                  <div style={{ width: '180px', height: '180px', flexShrink: '0' }} >
+                    <img src={logo} alt="" style={{ borderRadius: '6px', objectFit: 'fill', border: '1px solid grey', width: '100%', height: '100%' }} />
+                  </div>
                   <div style={{ fontSize: '14px' }} >{description}</div>
                 </div>
                 <hr />
